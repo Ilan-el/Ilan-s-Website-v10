@@ -1,0 +1,189 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background: linear-gradient(to bottom right, #3498db, #2ecc71);
+    color: white;
+    background-attachment: fixed;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #67856b5d;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    border-radius: 15px;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list a:hover {
+    color: #ffcc00;
+}
+
+#Intro {
+    font-size: 2em;
+    margin-top: 60px;
+}
+
+#Ilan {
+    display: inline-flex;
+    color: chartreuse;
+    font-size: 4em;
+}
+
+#clock {
+    font-size: 2em;
+}
+
+#clock-container {
+    background-color: #000000;
+    border-radius: 15px;
+    padding: 15px;
+    display: inline-block;
+    color: aliceblue;
+}
+
+#H2 {
+    font-size: 1em;
+    margin-top: -1em;
+}
+ #Link {
+    display: inline;
+ }
+
+ .Emoji {
+    content: '\1F604'; /* Unicode character for a smiling face emoji */
+    font-size: 24px; /* Adjust the font size as needed */
+    display: inline-flex;
+}
+#Space {
+    padding: 20cm;
+}
+#Result {
+    color: wheat;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+/* styles.css */
+
+/* styles.css */
+
+/* styles.css */
+
+/* styles.css */
+
+/* styles.css */
+
+.elapsed-time-container {
+    position: relative;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #3498db;
+    padding: 20px; /* Adjust padding for a larger squared bubble */
+    margin: 10px auto; /* Auto margin for centering horizontally */
+    border-radius: 15px; /* Adjust border-radius for a rounded corner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px; /* Set a fixed width */
+    height: 80px; /* Set a fixed height */
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+
+.hover-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3498db;
+    border-radius: 15px;
+    padding: 10px 15px;
+    vertical-align: bottom;
+}
+
+.elapsed-time-container:hover .hover-content {
+display: inline-block;
+vertical-align: middle; /* Vertical centering */
+margin: 0 auto;
+
+}
+/* styles.css */
+
+/* ... other styles ... */
+
+/* Styles for the hover content */
+#elapsedTimeCounter {
+    color: white; /* Text color inside the hover content */
+    font-size: 25px; /* Adjust the font size */
+    font-weight: bold; /* Make the text bold */
+    
+    
+    /* Center text horizontally and vertically */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Set height to 100% for vertical centering */
+    width: 100%; /* Set width to 100% to fill the container horizontally */
+    margin: 0; /* Remove any default margin */
+}
+
+.checklist-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px; /* Increase font size for a bolder appearance */
+    color: #000000;
+    padding: 15px 20px; /* Adjust padding for a fuller appearance */
+    margin: 10px auto;
+    border: 2px solid #3498db; /* Increase border thickness */
+    border-radius: 30px; /* Adjust border-radius for a rounder corner */
+    width: 300px;
+   background-color: #2ecc71;
+   margin-bottom: 40px;
+}
+.checklist-checkbox {
+    font-size: 54px; /* Increase font size for a larger checkbox */
+}
+#timeDifference {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.disclaimer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
